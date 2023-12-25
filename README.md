@@ -11,17 +11,23 @@
 
 **Mac：**
 
-```brew install ipmitool```
+```
+brew install ipmitool
+```
 
 **Linux:**
 
 Ubuntu
 
-```apt-get install -y ipmitool```
+```
+apt-get install -y ipmitool
+```
 
 CentOS
 
-```yum install -y ipmitool```
+```
+yum install -y ipmitool
+```
 
 
 **Windows:**
@@ -32,19 +38,27 @@ Windows不适用，但经过适当转换及使用ipmitool.exe也可实现，后�
 
 将user更换为登录idrac的用户名
 
-```username="user"```
+```
+username="user"
+```
 
 将pwd更换为登录idrac的密码
 
-```password="pwd"```
+```
+password="pwd"
+```
 
 将127.0.0.1更换为访问idrac的IP
 
-```IDRAC_IP="127.0.0.1"```
+```
+IDRAC_IP="127.0.0.1"
+```
 
 修改好用户名、密码和IP后：
 
-`bash ipmi.sh`
+```
+bash ipmi.sh
+```
 
 输入对应的数字即可，部分功能需要获取的信息较多需要等待几秒
 
