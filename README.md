@@ -40,6 +40,15 @@ yum install -y ipmitool
 
 Windows不适用，但经过适当转换及使用ipmitool.exe也可实现，后期有空更新
 
+建议直接使用GUI版本，相关项目链接：
+
+https://github.com/cw1997/dell_fans_controller
+
+https://github.com/jiafeng5513/dell_fans_controller
+
+个人比较喜欢第二个
+
+## 使用方法
 使用前需编辑脚本，修改其中的用户名、密码和IP
 
 将user更换为登录idrac的用户名
